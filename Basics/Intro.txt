@@ -48,3 +48,7 @@ Access Modifiers : public, private, protected, default
 4. default : The class, method, variable, constructor declared as default can be accessed within the class and outside the class but within the package (same directory) only.
 
 without importing any packagename we can't use the classes of that package.
+
+Java is a Robust Language: 
+
+> Garbage Collector (gc): gc will automatically gets invoked and frees up all the data that is not beign used right now in the program while running the program.
