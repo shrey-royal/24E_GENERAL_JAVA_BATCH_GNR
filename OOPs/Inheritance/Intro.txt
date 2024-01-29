@@ -1,0 +1,23 @@
+Inheritance in java is a mechanism in which one object acquires all the properties and behaviors of parent object. The idea behind inheritance in java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of parent class, and you can add new methods and fields also.
+
+syntax:
+    class Subclass-name extends Superclass-name {  
+       //methods and fields  
+    }
+
+    ex: 
+    class ChildClass extends ParentClass {
+        //methods and fields
+    }
+
+-> Inheritance represents the IS-A relationship, also known as parent-child relationship.
+-> Aggregation represents the HAS-A relationship. (here we will pass the object of the class as a parameter to the constructor of the other class)
+
+Types of inheritance in java:
+1. Single Inheritance : one subclass and one parent class
+2. Multilevel Inheritance : one subclass and one parent class and one grandparent class
+3. Hierarchical Inheritance : one parent class and multiple subclasses
+4. Multiple Inheritance (not supported in java using classes but can be achieved using interface)
+5. Hybrid Inheritance (combination of multiple and multilevel inheritance - not supported in java using classes but can be achieved using interfaces)
+
+*/

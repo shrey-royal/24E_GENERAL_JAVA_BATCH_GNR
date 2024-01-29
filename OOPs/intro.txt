@@ -1,0 +1,40 @@
+Object-Oriented Programming (OOP) is a programming paradigm that revolves around the concept of "objects," which can contain data in the form of fields (attributes or properties) and code in the form of procedures (methods or functions). Java is a widely-used programming language that fully supports OOP principles.
+
+object -> state(attributes) and behavior
+
+ex: dog
+state (attributes): name, age, breed, color, size, weight
+behavior (functionalities): bark(), eat(), walk(), sleep(), play(), fetch()
+
+
+Classes and Objects:
+
+> In Java, everything is associated with classes and objects. A class is a blueprint or template for creating objects. It defines the data and behavior common to all objects of the same type.
+> An object is an instance of a class. It is a runtime entity with its own set of attributes (fields) and behaviors (methods).
+
+When an object gets allocated with the memory, then it will become an instance.
+
+Inheritance: 
+
+> Inheritance is a mechanism by which a new class (subclass or derived class) is created from an existing class (superclass or base class) to acquire its attributes and behaviors.
+> In Java, a subclass extends a superclass using the extends keyword. It inherits all non-private fields and methods of the superclass.
+> Inheritance promotes code reusability and establishes a hierarchical relationship among classes.
+
+Polymorphism: 
+> Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables a single interface to represent multiple underlying forms.
+> In Java, polymorphism is achieved through method overriding and method overloading.
+
+    > Method Overriding: When a subclass provides a specific implementation of a method that is already defined in its superclass. It allows a subclass to define its own behavior for a method.
+    > Method Overloading: When multiple methods in the same class have the same name but different parameters. It allows a class to have multiple methods with the same name but different behaviors.
+
+Abstraction:
+
+> Abstraction is the process of hiding the implementation details and showing only the essential features of an object. It allows the programmer to focus on what an object does rather than how it does it.
+> In Java, abstraction is achieved through abstract classes and interfaces.
+    > Abstract Class: A class declared with the abstract keyword that cannot be instantiated on its own and may contain abstract methods (methods without implementation). Subclasses must provide concrete implementations for all abstract methods.
+    > Interface: A reference type similar to a class but can only contain constant declarations, method signatures, default methods, static methods, and nested types. Classes implement interfaces to provide specific behaviors.
+
+Encapsulation: 
+
+> Encapsulation is the bundling of data (fields) and methods that operate on the data into a single unit (class). It hides the internal state of an object from the outside world and only exposes the necessary functionalities.
+> In Java, encapsulation is achieved by declaring fields as private and providing public getter and setter methods to access and modify those fields.
