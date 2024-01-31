@@ -1,0 +1,11 @@
+Polymorphism: it provides an ability to use same code in multiple ways.
+
+1. Method Overloading: when a class has multiple methods with same name but different parameters.
+2. Method Overriding: if subclass has the same method as declared in the parent class.
+3. Covariant Return Type
+4. super keyword
+5. Instance Initializer Block
+6. final keyword
+7. Runtime Polymorphism
+8. Dynamic Binding
+9. instanceof Operator

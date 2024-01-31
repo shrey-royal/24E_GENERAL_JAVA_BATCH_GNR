@@ -59,3 +59,37 @@ Develop a music streaming service with classes like "Song," "Playlist," and "Use
 
 Scenario 20: Car Rental System
 Design a car rental system with classes like "Car," "RentalAgency," and "Customer." Implement methods for customers to search for available cars, make reservations, and manage their rentals.
+
+
+Aggregation:
+
+Scenario 1: Library Catalog System
+Design a library catalog system where a library has multiple books. The library class contains a list of book objects, representing an aggregation relationship.
+
+Scenario 2: University Department Management
+Create a university department management system where a department consists of multiple faculty members. The department class contains a list of faculty objects, representing an aggregation relationship.
+
+Scenario 3: Employee Payroll System
+Develop an employee payroll system where an organization has multiple employees. The organization class contains a list of employee objects, representing an aggregation relationship.
+
+Scenario 4: Online Shopping Cart
+Design an online shopping cart system where a shopping cart contains multiple items. The shopping cart class contains a list of item objects, representing an aggregation relationship.
+
+Scenario 5: School Course Enrollment
+Create a school course enrollment system where a student can enroll in multiple courses. The student class contains a list of course objects, representing an aggregation relationship.
+
+Scenario 6: Music Playlist Creation
+Develop a music playlist system where a playlist consists of multiple songs. The playlist class contains a list of song objects, representing an aggregation relationship.
+
+Scenario 7: Social Media User Connections
+Design a social media system where a user can have multiple connections or friends. The user class contains a list of user objects, representing an aggregation relationship.
+
+Scenario 8: Travel Itinerary Planner
+Create a travel itinerary planning system where a trip consists of multiple destinations. The trip class contains a list of destination objects, representing an aggregation relationship.
+
+Scenario 9: Movie Streaming Service
+Develop a movie streaming service where a user can have multiple favorite movies. The user class contains a list of movie objects, representing an aggregation relationship.
+
+Scenario 10: Bank Customer Account Management
+Design a bank account management system where a customer can have multiple bank accounts. The customer class contains a list of account objects, representing an aggregation relationship.
+
