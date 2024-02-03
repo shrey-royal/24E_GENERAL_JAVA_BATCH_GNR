@@ -1,5 +1,3 @@
-import javax.xml.bind.annotation.DomHandler;
-
 class Brand {
     protected String brandName;
     protected String location;
