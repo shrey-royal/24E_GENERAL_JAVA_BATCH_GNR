@@ -5,7 +5,7 @@ Polymorphism: it provides an ability to use same code in multiple ways.
 3. Covariant Return Type: It allows a method in a subclass to return a subtype of the type returned by the method in the superclass. This feature was introduced in Java 5.0.
 4. super keyword: It is a reference variable which is used to refer immediate parent class object.
 5. Instance Initializer Block: it is used to initialize the instance data member.
-6. final keyword
-7. Runtime Polymorphism
+6. final keyword: constant
+7. Runtime Polymorphism: Upcasting and Downcasting
 8. Dynamic Binding
 9. instanceof Operator
