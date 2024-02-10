@@ -11,3 +11,18 @@ Rules for Abstract class:
 3. it cannot be instantiated. (we can not create objects of abstract class)
 4. it can have constructors and static methods also.
 5. it can have final methods which will force the subclass not to change the body of the method.
+
+----------------------------------------------------------------------------------------------------------------
+Interface: Interface in Java is a blueprint of a class. It has final static constants and abstract methods only.
+
+> 100% abstraction is possible in interface.
+
+
+POints to remember:
+
+1. Interface in Java is a blueprint of a class. It has final static constants and abstract methods only.
+2. the data members of interface are public, static and final by default.
+3. no need to use abstract keyword with methods.
+4. it cannot be instantiated.
+5. it can only be implemented by those classes which inherit it.
+6. it cannot have constructors.
