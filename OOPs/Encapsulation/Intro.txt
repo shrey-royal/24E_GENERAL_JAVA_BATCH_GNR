@@ -1,0 +1,6 @@
+Encapsulation: It is a Process of wrapping up of data and functions into a single unit called class. It is a mechanism that binds together code and the data it manipulates, and keeps both safe from outside interference and misuse. In short, it is a protective shield that prevents the data from being accessed by the code outside this shield.
+
+Encapsulation can be done using: 
+1. Access Modifiers (public, private, protected)
+2. Accessors (getters) and Mutators (setters)
+3. Packages
