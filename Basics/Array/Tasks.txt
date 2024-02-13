@@ -29,3 +29,20 @@ In an event management system, create an array to store the RSVP status of atten
 
 Scenario 10: Survey Data Analysis
 In a survey data analysis application, create an array to store the responses of participants to survey questions. Perform operations such as calculating the percentage of participants with specific responses, generating charts or graphs based on the survey data, and extracting insights from the responses.
+
+
+/*
+Problem Statement: Create a Java program that manages a library's collection of books using a 2D array of Book objects. Implement the following functionality:
+
+1. Create a Book class with attributes like title, author, ISBN, and availability status.
+2. Initialize a 2D array to represent the library's shelves and books. Each element in the array should hold a Book object.
+3. Implement methods to add new books to the library's collection, remove books, and update book information.
+4. Allow users to check out and return books. Update the availability status accordingly.
+5. Provide a way to search for books by title, author, or ISBN and display relevant information.
+6. Ensure that the program can display the entire library's catalog, including available and checked-out books.
+7. Handle exceptions, such as attempting to check out a book that is already checked out or trying to remove a book that does not exist in the library.
+
+This problem statement combines the concepts of classes and objects with 2D arrays in Java to create a library management system.
+
+
+*/
