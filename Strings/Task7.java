@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Task7 {
     public static void main(String[] args) {
         String url = "https://www.example.com/path/to/resource?param1=value1&param2=value2";
