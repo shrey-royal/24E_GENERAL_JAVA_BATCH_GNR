@@ -1,0 +1,24 @@
+Regex(Regular Expressions): API
+
+> used to define a pattern for searching or manipulate strings.
+> widely used in Data Validation.
+
+uiu$%^&gaib - email
+
+domain names = google, yahoo, outlook, etc.
+dns - .com / .org / org.in / .in / etc.
+@
+username - small letters
+numbers, '.', etc.
+no special characters should be present 
+
+shreykadia.royal@gmail.com
+
+_________
+
+1 interface 3 classes -> package (java.util.regex)
+
+1. MatchResult interface
+2. Matcher class : regex engine
+3. Pattern class
+4. PatternSyntaxException class (exception class)
