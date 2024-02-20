@@ -1,0 +1,14 @@
+The Exception Handling in java is a powerful mechanism to handle the runtime errors.
+
+> helps the program in a normal continuious flow of execution.
+
+Exception: Abnormal Condition
+In java, an exception is an event that disrupts the normal flow of the program. it is an object which is thrown at runtime.
+
+try Block: It is used to enclose the code that might throw an exception. it must be within method.
+
+catch Block: if any exception occurs then the try block will throw an object that will have all the info about the exception and the catch block will handle the exception.
+
+finally: is a block used to execute important code such closing the connections/object. It will execute no matter the exception occurs or not.
+
+throw: it is used to explicitly throw the object of the exception occurred
