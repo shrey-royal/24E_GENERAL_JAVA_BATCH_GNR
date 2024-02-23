@@ -1,0 +1,17 @@
+Java inner class or nested class is a class that is derived inside another class or interface.
+
+syntax:
+class Outer_Class {
+    //code
+
+    class Inner_Class {
+        //code
+    }
+}
+
+
+Advantages:
+1. it can access all members/methods of outer class (private too).
+2. it makes the code more readable and maintainable. (cuz it's logically grouped together)
+3. code optimization: use less to write
+
