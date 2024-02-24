@@ -1,0 +1,21 @@
+> MultiThreading: It is a process of executing multiple thread simultaneously (parallely).
+
+> Thread: A thread is a lightweight sub-process (smallest unit of processing), used to achieve multitasking.
+
+> Thread uses a shared memory area.
+> context-switching between threads takes less time than process.
+> Used in games, animation, etc.
+
+Advantages: 
+
+> doesn't block the user.
+> Threads are independent.
+> perform multiple operations at a time.
+
+Life Cycle of a Thread: (Thread States)
+
+1. New : When a new thread is created
+2. Active {start()} : runnable(waiting for cpu) / running(when thread gets the cpu)
+3. Blocked/Waiting : Whenever a thread is inactive for a span of time(not permanently).
+4. Timed Waiting : Whenever a thread is inactive for a speicific span of time.
+5. Terminated : Whenever a thread has finished the execution or any unhandled exception occurs or the thread gets killed forcefully.
