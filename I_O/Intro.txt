@@ -1,0 +1,25 @@
+Java I/O (Input and Output) is used to process the input and produce the output.
+
+stream class that handles all this input and output data.
+
+Stream? > sequence of data (composed of bytes)
+
+3 stream that automatically gets created by java (attached to console):
+1. System.out: standard output stream
+1. System.in: standard input stream
+1. System.err: standard error stream
+
+
+Output Stream Class: throws IOException (tio)
+
+1. public void write(int) tio
+2. public void write(byte[]) tio - bytearrayinputstream
+3. public void flush() tio
+4. public void close() tio
+
+Input Stream Class: throws IOException (tio)
+
+1. public abstract int read() tio
+2. public int available() tio
+3. public void close() tio
+
