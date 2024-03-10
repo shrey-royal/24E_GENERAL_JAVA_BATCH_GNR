@@ -1,0 +1,37 @@
+Problem Statement: Restaurant Management System
+
+You are tasked with creating a simple Restaurant Management System in Java that allows customers to view the menu, create their orders, and calculate the total cost of their orders. The program should be menu-driven and use ArrayList, methods, and classes to simulate real-world scenarios in a restaurant.
+
+Requirements:
+
+1. Create a class named 'MenuItem' to represent an item on the restaurant's menu. Each item should have attributes for its name and price.
+
+2. Create a class named 'RestaurantMenu' to represent the restaurant's menu. This class should have an ArrayList to store instances of 'MenuItem'. The constructor of 'RestaurantMenu' should initialize the menu items with at least four predefined items (e.g., burger, pizza, salad, pasta) with their respective names and prices.
+
+3. Create a class named 'Order' to represent a customer's order. This class should have an ArrayList to store the items the customer has ordered.
+
+4. Implement a method in the 'Order' class to add a selected menu item to the order.
+
+5. Implement a method in the 'Order' class to calculate the total cost of the order based on the prices of the selected items.
+
+6. In the main program ('RestaurantApp'), provide a menu-driven interface for the customer:
+
+   - Display the following options:
+     1. Display Menu
+     2. Add Item to Order
+     3. View Order
+     4. Exit
+
+   - If the user chooses to display the menu, the program should iterate through the 'RestaurantMenu''s items and display each item's name and price.
+
+   - If the user chooses to add an item to their order, display the menu items and allow them to select an item by its number. Add the selected item to the order.
+
+   - If the user chooses to view their order, display the items in their order along with the total cost.
+
+   - If the user chooses to exit, display a thank-you message and terminate the program.
+
+Note: Handle invalid inputs gracefully, such as entering a wrong menu item number or choosing an option outside the provided range.
+
+Deliverables:
+
+Provide the complete Java code for the Restaurant Management System as described in the problem statement. Additionally, provide sample input and output scenarios to demonstrate the functionality of the program.
